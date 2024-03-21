@@ -1,4 +1,4 @@
-package lab.pguma.spring.template.api.demo
+package dojo.pguma.spring.boot.api.demo
 
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.PathVariable

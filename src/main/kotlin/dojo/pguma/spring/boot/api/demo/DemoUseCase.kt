@@ -1,6 +1,6 @@
-package lab.pguma.spring.template.api.demo
+package dojo.pguma.spring.boot.api.demo
 
-import lab.pguma.spring.template.api.exception.NoSuchResourceException
+import dojo.pguma.spring.boot.api.exception.NoSuchResourceException
 import org.springframework.stereotype.Component
 
 interface GetDemoUseCase {

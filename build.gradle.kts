@@ -10,7 +10,7 @@ plugins {
 	id("io.gitlab.arturbosch.detekt") version "1.23.5"
 }
 
-group = "lab.pguma.spring"
+group = "dojo.pguma.spring.boot"
 version = "0.0.1-SNAPSHOT"
 
 java {

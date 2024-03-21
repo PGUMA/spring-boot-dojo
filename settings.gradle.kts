@@ -1,1 +1,1 @@
-rootProject.name = "template"
+rootProject.name = "spring-boot-dojo"

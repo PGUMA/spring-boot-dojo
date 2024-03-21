@@ -1,6 +1,6 @@
-package lab.pguma.spring.template.api
+package dojo.pguma.spring.boot.api
 
-import lab.pguma.spring.template.api.exception.ApiException
+import dojo.pguma.spring.boot.api.exception.ApiException
 import org.springframework.http.HttpStatus
 import org.springframework.web.bind.annotation.ControllerAdvice
 import org.springframework.web.bind.annotation.ExceptionHandler
