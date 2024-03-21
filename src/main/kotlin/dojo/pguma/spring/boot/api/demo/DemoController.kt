@@ -14,4 +14,10 @@ class DemoController(
     fun demo(@PathVariable id: Int): String {
         return useCase.process(id)
     }
+
+    @GetMapping("/error/{id}")
+    fun demoWithError(@PathVariable id: Int): String {
+        throw RuntimeException("error")
+        return useCase.process(id)
+    }
 }
