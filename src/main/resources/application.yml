@@ -1,0 +1,6 @@
+# https://spring.pleiades.io/spring-boot/docs/current/reference/html/application-properties.html
+spring:
+  autoconfigure:
+    exclude:
+      - "org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration"
+      - "org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration"
