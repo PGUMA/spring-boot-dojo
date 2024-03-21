@@ -1,5 +1,7 @@
 # https://spring.pleiades.io/spring-boot/docs/current/reference/html/application-properties.html
 spring:
+  profiles:
+    active: dev
   autoconfigure:
     exclude:
       - "org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration"
