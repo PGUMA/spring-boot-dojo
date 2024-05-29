@@ -6,3 +6,24 @@ spring:
     exclude:
       - "org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration"
       - "org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration"
+
+server:
+  port: 8085
+
+management:
+  # https://spring.pleiades.io/spring-boot/reference/actuator/endpoints.html
+  endpoints:
+    # defaultはオプトアウトで意図しない有効化が行われないようにオプトイン形式に変更する
+    enabled-by-default: false
+    web:
+      exposure:
+        include: health,scheduledtasks,mappings,metrics
+  endpoint:
+    health:
+      enabled: true
+    scheduledtasks:
+      enabled: true
+    mappings:
+      enabled: true
+    metrics:
+      enabled: true
