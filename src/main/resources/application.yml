@@ -17,6 +17,8 @@ management:
     enabled-by-default: false
     web:
       exposure:
+        # defaultはセキュリティ上の理由でhealthのみ
+        # 公開する際はSpringSecurity等によるアクセス保護を行うことが大切
         include: health,scheduledtasks,mappings,metrics
   endpoint:
     health:
